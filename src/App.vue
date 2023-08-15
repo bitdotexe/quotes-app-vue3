@@ -1,16 +1,19 @@
 <template>
   <div class="container">
     <br />
-    <div class="row align-items-center">
+    <div class="row text-center">
       <h1>Welcome to QuoteSymphony</h1>
     </div>
     <hr />
     <div class="row">
       <div class="row text-center">
-        <div class="col" id="quoteLine">Frase</div>
+        <div class="col" id="quoteLine">
+          "El éxito no es la clave de la felicidad. La felicidad es la clave del
+          éxito. Si amas lo que haces, tendrás éxito."
+        </div>
       </div>
       <div class="row text-end">
-        <div class="col" id="authorLine">- Autor</div>
+        <div class="col" id="authorLine">- Albert Schweitzer</div>
       </div>
     </div>
     <div class="row justify-content-center" id="buttonChangeQuote">
